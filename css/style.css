@@ -1,3 +1,7 @@
+body {
+  font-family: Georgia;
+}
+
 h3 {
   color: white;
 }
@@ -14,6 +18,10 @@ a {
 
 .blockhead {
   padding-right: 1.5%;
+}
+
+.text-style {
+  font-family: 'Lobster',cursive;
 }
 
 .menu-items{
@@ -53,6 +61,10 @@ a {
 
 .food-left {
   text-align: right;
+}
+
+.orange {
+  color: #F1A459;
 }
 
 .btn {
