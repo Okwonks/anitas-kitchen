@@ -1,0 +1,90 @@
+h3 {
+  color: white;
+}
+
+footer {
+  align-content: center;
+  display: block;
+  box-sizing: border-box;
+}
+
+.blockhead {
+  padding-right: 1.5%;
+}
+
+.main {
+  padding: 10px;
+}
+
+.banner {
+  background-image: url("../img/backgrounds/landing.jpg");
+}
+
+.container-fluid {
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.col-md-4 {
+  padding: 2%;
+  background-color: white;
+}
+
+.padng {
+  padding: 1.25%;
+}
+
+.about{
+  padding: 20px;
+}
+
+.image-space {
+  padding: 5%;
+}
+
+#submitForm {
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#tab-container {
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+  padding-bottom: 40px;
+}
+
+#footer {
+  text-align: center;
+  padding: 25px;
+}
+
+#party {
+  color: white;
+  background-color: #F15A29;
+}
+
+#breakfast {
+  background-image: url("../img/foodtop/breakfast.jpg");
+}
+
+#lunch {
+  background: url("../img/foodtop/lunch.jpg");
+}
+
+#dinner {
+  background-image: url("../img/foodtop/dinner.jpg");
+}
+
+#logo {
+
+}
+
+#main {
+  color: white;
+}
+
+#btn-left {
+  background-color: inherit;
+  border-color: inherit;
+}
