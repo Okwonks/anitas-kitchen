@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header class="container">
+  <header class="container-fluid" id="header">
   <div class="row">
     <div class="blockhead">
       <div class="banner">
@@ -36,29 +36,30 @@
         </div>
       </div>
       <!--banner ends here-->
-      <div class="menu-items">
-        <div class="row">
-          <div class="col-md-3 text-center">
-            <p id="happy"><a href="#" id="happy">Happy Hour</a></p>
-            <p id="party"><a href="#" id="party">Party Time</a></p>
-          </div>
-          <div class="col-md-3 text-center padng" id="breakfast">
-            <h3>Breakfast</h3>
-          </div>
-          <div class="col-md-3 text-center padng" id="lunch">
-            <h3>Lunch</h3>
-          </div>
-          <div class="col-md-3 text-center padng" id="dinner">
-            <h3>Dinner</h3>
-          </div>
-        </div>
-        <!--close of menu-items class-->
-      </div>
+
       <!--end the blockhead-->
     </div>
   <!--end of row-->
   </div>
 </header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 text-center">
+      <p id="happy"><a href="#" id="happy">Happy Hour</a></p>
+      <p id="party"><a href="#" id="party">Party Time</a></p>
+    </div>
+    <div class="col-md-3 text-center padng" id="breakfast">
+      <h3>Breakfast</h3>
+    </div>
+    <div class="col-md-3 text-center padng" id="lunch">
+      <h3>Lunch</h3>
+    </div>
+    <div class="col-md-3 text-center padng" id="dinner">
+      <h3>Dinner</h3>
+    </div>
+  </div>
+  <!--close of menu-items class-->
+</div>
   <!--this is the esction with the paragraphs and images-->
   <div class="container-fluid"  id="back-color">
     <div class="row">
@@ -66,7 +67,7 @@
         <img src="img/fastFood1.jpg" alt="some-food-here">
         <img src="img/fastFood2.jpg" alt="more-food-here">
       </div>
-      <div class="col-md-6 left">
+      <div class="col-md-6 food-left">
         <h2>Fast Foods</h2>
         <h4><strong>You'll love our delicious fast food</strong></h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -79,7 +80,7 @@
     </div>
 
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 drinks-right">
         <h2>Drinks</h2>
         <h4><strong>We also produce delicious drinks</strong></h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -131,6 +132,7 @@
               <h4 class="orange">Happy Customers</h4>
               <h5>George Richard</h5>
               <p>Great food! Menu is awesome there foods are not only great but also in the right price. I'll highly recomend them :)</p>
+              
             </div>
             <div class="col-md-6">
               <h4 class="orange">About Menu</h4>
