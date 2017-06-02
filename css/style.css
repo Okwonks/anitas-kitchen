@@ -8,8 +8,16 @@ footer {
   box-sizing: border-box;
 }
 
+a {
+  color: white;
+}
+
 .blockhead {
   padding-right: 1.5%;
+}
+
+.menu-items{
+  width: inherit;
 }
 
 .main {
@@ -43,6 +51,10 @@ footer {
   padding: 5%;
 }
 
+.btn {
+  font-size: 1.2em;
+}
+
 #submitForm {
   background-image: url("../img/backgrounds/subscribe.jpg");
   padding-top: 10px;
@@ -59,9 +71,16 @@ footer {
   padding: 25px;
 }
 
+#happy {
+  background-color: white;
+  color: grey;
+  padding: 3.2%;
+}
+
 #party {
   color: white;
   background-color: #F15A29;
+  padding: 3.2%;
 }
 
 #breakfast {
@@ -76,8 +95,10 @@ footer {
   background-image: url("../img/foodtop/dinner.jpg");
 }
 
-#logo {
-
+#back-color {
+  background-color: #e6e6e6;
+  padding: 1.25%;
+  font-size: 1.3em;
 }
 
 #main {
@@ -86,5 +107,6 @@ footer {
 
 #btn-left {
   background-color: inherit;
-  border-color: inherit;
+  border-color: none;
+  border: none;
 }
