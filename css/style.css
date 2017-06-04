@@ -71,6 +71,10 @@ a {
   font-size: 1.2em;
 }
 
+.btn-outline-primary {
+  background-color: white;
+}
+
 #submitForm {
   background-image: url("../img/backgrounds/subscribe.jpg");
   padding-top: 10px;
@@ -119,6 +123,9 @@ a {
 
 #main {
   color: white;
+  font-family: 'Lobster', cursive;
+  font-family: 'Oxygen', sans-serif;
+  font-family: 'Bitter', serif;
 }
 
 #btn-left {
