@@ -13,175 +13,190 @@
 
   <!--loading scripts just in case ;) -->
   <script src="js/jquery-3.2.1.js"></script>
-  <script src="js/bootstrap.js"></script>
+  <script src="js/scripts.js"></script>
 </head>
 
 <body>
   <header class="container-fluid" id="header">
-  <div class="row">
-    <div class="blockhead">
-      <div class="banner">
-        <button class="btn btn-default" aria-label="Justify Align" id="btn-left">
-        <a href="#">
-        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-      </a>
-      </button>
-        <div class="row text-center">
-          <div class="col-md-6 col-md-offset-3">
-            <img src="img/logoBig.png" alt="anitas-logo" title="Anita's Kitchen" class="responsive" id="logo">
-            <br>
-            <br>
-            <h1 id="main">We Provide The Best Food <br> At The <strong>Right Price</strong></h1>
-            <br>
-            <br>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+
+    </div>
+    <button class="btn btn-default" aria-label="Justify Align" id="btn-left">
+      <span class="glyphicon glyphicon-align-justify" onclick="openNav()" aria-hidden="true"></span>
+    </button>
+
+
+    <div class="row">
+      <div class="blockhead">
+        <div class="banner">
+          <div class="row text-center">
+            <div class="col-md-6 col-md-offset-3">
+              <img src="img/logoBig.png" alt="anitas-logo" title="Anita's Kitchen" class="responsive" id="logo">
+              <br>
+              <br>
+              <h1 id="main">We Provide The Best Food <br> At The <strong>Right Price</strong></h1>
+              <br>
+              <br>
+            </div>
           </div>
         </div>
+        <!--banner ends here-->
+
       </div>
-      <!--banner ends here-->
+      <!--end of blockhead-->
+    </div>
 
-    </div>
-  <!--end of blockhead-->
-  </div>
-
-<!--the header part-->
-</header>
-<div class="container">
-  <div class="row">
-    <div class="col-md-3 text-center">
-      <p id="happy"><a href="#" id="happy">Happy Hour</a></p>
-      <p id="party"><a href="#" id="party">Party Time</a></p>
-    </div>
-    <div class="col-md-3 text-center padng" id="breakfast">
-      <h3 class="text-style">Breakfast</h3>
-    </div>
-    <div class="col-md-3 text-center padng" id="lunch">
-      <h3>Lunch</h3>
-    </div>
-    <div class="col-md-3 text-center padng" id="dinner">
-      <h3>Dinner</h3>
+    <!--the header part-->
+  </header>
+  <div class="container" id="menu1">
+    <div class="row">
+      <div class="col-md-3 text-center" id="happyParty">
+        <p id="happy"><a href="#" id="happy">Happy Hour</a></p>
+        <p id="party"><a href="#" id="party">Party Time</a></p>
+      </div>
+      <div class="col-md-3 text-center padng" id="breakfast">
+        <h3 class="text-style">Breakfast</h3>
+      </div>
+      <div class="col-md-3 text-center padng" id="lunch">
+        <h3>Lunch</h3>
+      </div>
+      <div class="col-md-3 text-center padng" id="dinner">
+        <h3>Dinner</h3>
+      </div>
     </div>
   </div>
-</div>
-<!--close of menu-items class-->
+  <!--close of menu-items class-->
 
 
 
   <!--this is the esction with the paragraphs and images-->
   <div class="container">
-  <div class="container-fluid"  id="back-color">
-    <div class="row">
-      <div class="col-md-6 img-thumbnail">
-        <img src="img/fastFood1.jpg" alt="some-food-here">
-        <img src="img/fastFood2.jpg" alt="more-food-here">
-      </div>
-      <div class="col-md-6 food-left">
-        <h2>Fast Foods</h2>
-        <h4><strong>You'll love our delicious fast food</strong></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <br>
-        <button type="button" class="btn btn-outline-primary">View Gallery</button>
-      </div>
+    <div class="container-fluid" id="back-color">
+      <div class="row">
+        <div class="col-md-6 img-thumbnail">
+          <img src="img/fastFood1.jpg" alt="some-food-here">
+          <img src="img/fastFood2.jpg" alt="more-food-here">
+        </div>
+        <div class="col-md-6 food-left">
+          <h2>Fast Foods</h2>
+          <h4><strong>You'll love our delicious fast food</strong></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <br>
+          <button type="button" class="btn btn-outline-primary">View Gallery</button>
+        </div>
 
-    </div>
-    <!--end of first row-->
+      </div>
+      <!--end of first row-->
 
-    <div class="row">
-      <div class="col-md-6 drinks-right">
-        <h2>Drinks</h2>
-        <h4><strong>We also produce delicious drinks</strong></h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <br>
-        <button type="button" class="btn btn-outline-primary">View Gallery</button>
+      <div class="row">
+        <div class="col-md-6 drinks-right">
+          <h2>Drinks</h2>
+          <h4><strong>We also produce delicious drinks</strong></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <br>
+          <button type="button" class="btn btn-outline-primary">View Gallery</button>
+        </div>
+        <div class="col-md-6 img-thumbnail">
+          <img src="img/drink1.jpg" alt="image-of-drink">
+          <img src="img/drink2.jpg" alt="another-drink-goes-here">
+        </div>
       </div>
-      <div class="col-md-6 img-thumbnail">
-        <img src="img/drink1.jpg" alt="image-of-drink">
-        <img src="img/drink2.jpg" alt="another-drink-goes-here">
-      </div>
-    </div>
-    <!--end of second the row-->
+      <!--end of second the row-->
     </div>
     <!--end of continer-fluid-->
   </div>
   <!--end of the main container-->
 
-    <div class="container" id="tab-container">
-      <div class="container-fluid">
-        <ul class="nav nav-tabs">
-          <li class="active"><a href="#">Fast Food</a></li>
-          <li><a href="">Drinks</a></li>
-          <li><a href="">Chicken</a></li>
-          <li><a href="">Rice</a></li>
-        </ul>
+  <div class="container" id="tab-container">
+    <div class="container-fluid">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Fast Food</a></li>
+        <li><a href="">Drinks</a></li>
+        <li><a href="">Chicken</a></li>
+        <li><a href="">Rice</a></li>
+      </ul>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/fastfood/chickenBurger.jpg" alt="chicken-burger">
+        </div>
+        <div class="col-md-4">
+          <img src="img/fastfood/beefBurger.jpg" alt="beef-burger">
+        </div>
+        <div class="col-md-4">
+          <img src="img/fastfood/chickenPizza.jpg" alt="chicken-pizza">
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+
+
+  <!--this is the area with the customers-->
+  <div class="container about">
+    <div class="well well-lg">
+      <div class="customers text-center">
         <div class="row">
-          <div class="col-md-4">
-            <img src="img/fastfood/chickenBurger.jpg" alt="chicken-burger">
+          <div class="col-md-6">
+            <h4 class="orange"><strong>Happy Customers</strong></h4>
+            <h5>George Richard</h5>
+            <p>Great food! Menu is awesome there foods are not only great but also in the right price. I'll highly recomend them :)</p>
+            <img src="img/customers/p1.png" alt="happy customer">
+            <img src="img/customers/p2.png" alt="happy customer">
+            <img src="img/customers/p3.png" alt="happy customer">
           </div>
-          <div class="col-md-4">
-            <img src="img/fastfood/beefBurger.jpg" alt="beef-burger">
-          </div>
-          <div class="col-md-4">
-            <img src="img/fastfood/chickenPizza.jpg" alt="chicken-pizza">
-          </div>
-        </div>
-      </div>
-    </div>
-    <br>
-    <br>
-
-
-    <!--this is the area with the customers-->
-    <div class="container about">
-      <div class="well well-lg">
-        <div class="customers text-center">
-          <div class="row">
-            <div class="col-md-6">
-              <h4 class="orange"><strong>Happy Customers</strong></h4>
-              <h5>George Richard</h5>
-              <p>Great food! Menu is awesome there foods are not only great but also in the right price. I'll highly recomend them :)</p>
-              <img src="img/customers/p1.png" alt="happy customer">
-              <img src="img/customers/p2.png" alt="happy customer">
-              <img src="img/customers/p3.png" alt="happy customer">
-            </div>
-            <div class="col-md-6">
-              <h4 class="orange"><strong>About Menu</strong></h4>
-              <p>We are menu a little team of 7 members. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              </p>
-            </div>
+          <div class="col-md-6">
+            <h4 class="orange"><strong>About Menu</strong></h4>
+            <p>We are menu a little team of 7 members. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            </p>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--this is the section for the form-->
-    <div class="container text-center" id="submitForm">
-      <form>
-        <div class="form-inline">
-          <div class="form-group">
-            <label for="email">email</label>
-            <h3 class="subscribe">Get our daily food items delivered to your email</h3>
-            <input class="form-control" type="text" placeholder="Your Email" required>
-            <button type="submit" class="btn">Subscribe</button>
-          </div>
-      </form>
-      </div>
-      <!--this marks the end of container-fluid-->
+  <!--this is the section for the form-->
+  <div class="container text-center" id="submitForm">
+    <form>
+      <div class="form-inline">
+        <div class="form-group">
+          <label for="email">email</label>
+          <h3 class="subscribe">Get our daily food items delivered to your email</h3>
+          <input class="form-control" type="text" placeholder="Your Email" required>
+          <button type="submit" class="btn">Subscribe</button>
+        </div>
+    </form>
     </div>
+    <!--this marks the end of container-fluid-->
+  </div>
 
 
-    <!--this is where the page ends-->
-    <footer>
-      <div id="footer">
-        WillisCode
-        <script>
-          document.write(new Date().getFullYear())
-        </script>. All rights reserved.
-      </div>
-    </footer>
-    <script type="js/bootstrap.min.js"></script>
+  <!--this is where the page ends-->
+  <footer>
+    <div id="footer">
+      WillisCode
+      <script>
+        document.write(new Date().getFullYear())
+      </script>. All rights reserved.
+    </div>
+  </footer>
+  <script type="js/bootstrap.min.js"></script>
 </body>
 
 </html>
