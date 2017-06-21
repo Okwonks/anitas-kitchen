@@ -1,0 +1,302 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  font-family: 'Bitter',serif;
+  font-size: 36px;
+}
+
+#click-link {
+  color: black;
+}
+/*Hamburger menu*/
+#pageMenu {
+  margin-left: 2%;
+}
+#pageMenu:hover {
+  color: #F0F8FF;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F15A29;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    }
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/*end of hamburger menu*/
+.head {
+  background-image: url("../img/backgrounds/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2%;
+  padding-bottom: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
+}
+.logoBig {
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+.food-info {
+  color: white;
+}
+
+#happy {
+  text-align: center;
+  background-color: #F0F8FF;
+  color: black;
+  padding: 8.8%;
+  margin: 0%;
+}
+#party {
+  text-align: center;
+  background-color: #F15A29;
+  padding: 8.8%;
+  margin: 0%;
+}
+#breakfast {
+  background-image: url("../img/foodtop/breakfast.jpg");
+  padding: 4%;
+  text-align: center;
+  font-family: 'Lobster',cursive;
+}
+#breakfast:hover {
+  opacity: 0.5;
+  color: black;
+}
+#lunch {
+  background-image: url("../img/foodtop/lunch.jpg");
+  padding: 4%;
+  text-align: center;
+}
+#lunch:hover {
+  opacity: 0.5;
+  color: black;
+}
+#dinner {
+  background-image: url("../img/foodtop/dinner.jpg");
+  padding: 4%;
+  text-align: center;
+}
+#dinner:hover {
+  opacity: 0.5;
+  color: black;
+}
+#fast-foodGallery {
+  padding: 2%;
+  text-align: right;
+  shape-outside: padding-box;
+}
+#fast-foodText {
+  padding-right: 12%;
+}
+#drinksText {
+  padding-left: 11%;
+  text-align: right;
+}
+.fast-foodBtn {
+  height: 150%;
+  width: 40%;
+  background-color: white;
+  border-color: #F15A29;
+  border-width: thin;
+  border-radius: 5%;
+  color: #F15A29;
+}
+.fast-foodBtn:hover {
+  background-color: #F15A29;
+  color: white;
+}
+.glyphicon-arrow-right {
+  margin-left: 10%;
+  font-weight: lighter;
+}
+.glyphicon-arrow-right:hover {
+  color: white;
+}
+#fast-foodMenu {
+  background-image: url("../img/backgrounds/foodsBg.jpg"); height: 600px; opacity: 0.8;
+}
+#galleryNav {
+  background-color: white;
+  margin: 10%;
+}
+#gallery {
+  background-color: white;
+  text-align: center;
+}
+#navTabs {
+  text-align: center;
+}
+.nav-tabs li {
+  width: 25%;
+}
+#fastFood {
+  color: #F15A29;
+}
+#drinks {
+  background-color: lightgrey;
+  color: 	#264040;
+  margin-right: 0%;
+}
+#chicken {
+  background-color: lightgrey;
+  color: 	#264040;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+#rice {
+  background-color: lightgrey;
+  color: 	#264040;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+.tableImages td h5 {
+  color: #F15A29;
+}
+#panel {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+#panel-body {
+  box-shadow: 3px 3px 4px 0px rgba(196,184,196,1);
+}
+#test1 {
+  border-right: 2px;
+  border-color: grey;
+}
+#happyCustomers {
+  text-align: center;
+  margin-top: 2%;
+  padding-left: 5%;
+  padding-right: 4%;
+}
+#happyCustomers h4 {
+  color: #F15A29;
+}
+#happyCustomers p {
+  margin-top: -1%;
+}
+.chevron {
+  color: #F15A29;
+}
+.people {
+  margin: 1%;
+}
+
+#aboutMenu {
+  margin-top: 2%;
+  text-align: center;
+}
+#aboutMenu h4 {
+  color: #F15A29;
+}
+#delivery {
+  background-image: url("../img/backgrounds/subscribe.jpg"); height: 300px;
+  color: white;
+  text-align: center;
+}
+#delivery h2 {
+  margin-top: 8%;
+  margin-bottom: 2%;
+}
+#input {
+  background-color: grey;
+  opacity: 0.6;
+  border: none;
+  border-radius: 5px;
+  text-align: left;
+  width: 30%;
+  padding-left: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-right: 2%;
+
+}
+::placeholder {
+  color: white;
+}
+#button {
+  background-color: #F15A29;
+  border: none;
+  border-radius: 5px;
+  width: 15%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#footer {
+  background-color: #F15A29;
+}
+
+#footer-bottom{
+  background-color: #F15A29;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+
+#footerContents {
+  margin-top: 3%;
+  color: white;
+  text-align: center;
+  padding-bottom: 1.5%;
+}
+#burger {
+
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+#footerContents a {
+  margin: 1%;
+}

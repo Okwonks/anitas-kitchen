@@ -3,200 +3,253 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Bitter|Lobster|Oxygen" rel="stylesheet">
-  <title>Anita's Kitchen</title>
-
-  <!--loading scripts just in case ;) -->
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
   <script src="js/jquery-3.2.1.js"></script>
-  <script src="js/scripts.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+  <!-- Google analytics   -->
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-100749641-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- End of Google analytics -->
+  <title>Anita's Kitchen</title>
 </head>
 
-<body>
-  <header class="container-fluid" id="header">
-    <!-- The overlay -->
-    <div id="myNav" class="overlay">
+<body id="body">
+  <div class="container-fluid">
+    <div class="row head">
 
-      <!-- Button to close the overlay navigation -->
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-      <!-- Overlay content -->
-      <div class="overlay-content">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
-      </div>
-
-    </div>
-    <button class="btn btn-default" aria-label="Justify Align" id="btn-left">
-      <span class="glyphicon glyphicon-align-justify" onclick="openNav()" aria-hidden="true"></span>
-    </button>
-
-
-    <div class="row">
-      <div class="blockhead">
-        <div class="banner">
-          <div class="row text-center">
-            <div class="col-md-6 col-md-offset-3">
-              <img src="img/logoBig.png" alt="anitas-logo" title="Anita's Kitchen" class="responsive" id="logo">
-              <br>
-              <br>
-              <h1 id="main">We Provide The Best Food <br> At The <strong>Right Price</strong></h1>
-              <br>
-              <br>
-            </div>
-          </div>
-        </div>
-        <!--banner ends here-->
-
-      </div>
-      <!--end of blockhead-->
-    </div>
-
-    <!--the header part-->
-  </header>
-  <div class="container" id="menu1">
-    <div class="row">
-      <div class="col-md-3 text-center" id="happyParty">
-        <p id="happy"><a href="#" id="happy">Happy Hour</a></p>
-        <p id="party"><a href="#" id="party">Party Time</a></p>
-      </div>
-      <div class="col-md-3 text-center padng" id="breakfast">
-        <h3 class="text-style">Breakfast</h3>
-      </div>
-      <div class="col-md-3 text-center padng" id="lunch">
-        <h3>Lunch</h3>
-      </div>
-      <div class="col-md-3 text-center padng" id="dinner">
-        <h3>Dinner</h3>
-      </div>
-    </div>
-  </div>
-  <!--close of menu-items class-->
-
-
-
-  <!--this is the esction with the paragraphs and images-->
-  <div class="container">
-    <div class="container-fluid" id="back-color">
-      <div class="row">
-        <div class="col-md-6 img-thumbnail">
-          <img src="img/fastFood1.jpg" alt="some-food-here">
-          <img src="img/fastFood2.jpg" alt="more-food-here">
-        </div>
-        <div class="col-md-6 food-left">
-          <h2>Fast Foods</h2>
-          <h4><strong>You'll love our delicious fast food</strong></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <br>
-          <button type="button" class="btn btn-outline-primary">View Gallery</button>
-        </div>
-
-      </div>
-      <!--end of first row-->
-
-      <div class="row">
-        <div class="col-md-6 drinks-right">
-          <h2>Drinks</h2>
-          <h4><strong>We also produce delicious drinks</strong></h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <br>
-          <button type="button" class="btn btn-outline-primary">View Gallery</button>
-        </div>
-        <div class="col-md-6 img-thumbnail">
-          <img src="img/drink1.jpg" alt="image-of-drink">
-          <img src="img/drink2.jpg" alt="another-drink-goes-here">
+      <!-- Beginning of hamburger -->
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#">Contacts</a>
+          <a href="#">Events</a>
+          <a href="#">Menu</a>
         </div>
       </div>
-      <!--end of second the row-->
-    </div>
-    <!--end of continer-fluid-->
-  </div>
-  <!--end of the main container-->
-
-  <div class="container" id="tab-container">
-    <div class="container-fluid">
-      <ul class="nav nav-tabs">
-        <li class="active"><a href="#">Fast Food</a></li>
-        <li><a href="">Drinks</a></li>
-        <li><a href="">Chicken</a></li>
-        <li><a href="">Rice</a></li>
-      </ul>
-      <div class="row">
-        <div class="col-md-4">
-          <img src="img/fastfood/chickenBurger.jpg" alt="chicken-burger">
-        </div>
-        <div class="col-md-4">
-          <img src="img/fastfood/beefBurger.jpg" alt="beef-burger">
-        </div>
-        <div class="col-md-4">
-          <img src="img/fastfood/chickenPizza.jpg" alt="chicken-pizza">
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-  <br>
 
 
-  <!--this is the area with the customers-->
-  <div class="container about">
-    <div class="well well-lg">
-      <div class="customers text-center">
-        <div class="row">
-          <div class="col-md-6">
-            <h4 class="orange"><strong>Happy Customers</strong></h4>
-            <h5>George Richard</h5>
-            <p>Great food! Menu is awesome there foods are not only great but also in the right price. I'll highly recomend them :)</p>
-            <img src="img/customers/p1.png" alt="happy customer">
-            <img src="img/customers/p2.png" alt="happy customer">
-            <img src="img/customers/p3.png" alt="happy customer">
-          </div>
-          <div class="col-md-6">
-            <h4 class="orange"><strong>About Menu</strong></h4>
-            <p>We are menu a little team of 7 members. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="pageMenu"> &#9776; </span>
 
-  <!--this is the section for the form-->
-  <div class="container text-center" id="submitForm">
-    <form>
-      <div class="form-inline">
-        <div class="form-group">
-          <label for="email">email</label>
-          <h3 class="subscribe">Get our daily food items delivered to your email</h3>
-          <input class="form-control" type="text" placeholder="Your Email" required>
-          <button type="submit" class="btn">Subscribe</button>
-        </div>
-    </form>
-    </div>
-    <!--this marks the end of container-fluid-->
-  </div>
-
-
-  <!--this is where the page ends-->
-  <footer>
-    <div id="footer">
-      WillisCode
       <script>
-        document.write(new Date().getFullYear())
-      </script>. All rights reserved.
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+      </script>
+      <!-- End of hamburger -->
+
+      <div class="logoBig">
+        <img src="img/logoBig.png">
+        <br>
+        <br>
+        <h1>We Provide The Best Food <br>At the <strong>Right Price</strong></h1>
+      </div>
     </div>
-  </footer>
-  <script type="js/bootstrap.min.js"></script>
+    <!-- Offers and meals -->
+    <div class="food-info">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="row">
+            <h3 id="happy"><a id="click-link">Happy Hour</a></h3></a>
+            <!-- <div id="happy-modal" class="modal">
+              Modal content
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Come join us from 5-6 for happy hour!</p>
+              </div>
+
+            </div> -->
+          </div>
+          <div class="row">
+            <h3 id="party"><a id="click-link2">Party Time</a></h3></a>
+          </div>
+        </div>
+        <div id="meal-nav">
+          <div class="col-md-3" id="breakfast">
+            <h2><em>Breakfast</em></h2>
+          </div>
+          <div class="col-md-3" id="lunch">
+            <h2><em>Lunch</em></h2>
+          </div>
+          <div class="col-md-3" id="dinner">
+            <h2><em>Dinner</em></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of offers and meals -->
+    </br>
+    </br>
+    </br>
+    <!-- Fast food and drinks -->
+    <div class="row">
+      <div class="col-md-6" id="fast-foodGallery">
+        <table class="table-resposnsive tb img-thumbnail">
+          <tr>
+            <td><img src="img/fastFood1.jpg"></td>
+          </tr>
+          <tr>
+            <td><img src="img/fastFood2.jpg"></td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-md-6" id="fast-foodText">
+        </br>
+        </br>
+        <h2><strong>Fast Food</strong></h2> </br>
+        <h5><strong>You'll love our delicious fast food</strong></h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum mi vel diam ultrices, nec lobortis turpis sodales. Suspendisse a magna tincidunt, imperdiet metus id, varius magna. Ut cursus massa eget massa cursus, et rutrum ex pretium.
+          Sed et placerat dolor, sit amet viverra lorem. Mauris tempor quam vitae blandit tincidunt. Praesent nisl sem, iaculis sit amet mattis in, consequat eget dolor. Donec pretium, neque non commodo luctus, augue arcu mollis massa, non convallis ante
+          urna eget orci. Nulla facilisi. Phasellus eu turpis vel justo lobortis ullamcorper vel sed ex.</p>
+        </br>
+        <button class=fast-foodBtn type="button" name="button"><h6><strong>VIEW GALLERY</strong><span class="glyphicon glyphicon-arrow-right arrow" aria-hidden="true"></span></h6></button>
+      </div>
+    </div>
+    <div class="row">
+      </br>
+      </br>
+      <div class="col-md-6" id="drinksText">
+        <h2><strong>Drinks</strong></h2></br>
+        <h5><strong>We also produce delicious drinks</strong></h5>
+        <p id="drinksText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum mi vel diam ultrices, nec lobortis turpis sodales. Suspendisse a magna tincidunt, imperdiet metus id, varius magna. Ut cursus massa eget massa cursus, et rutrum ex pretium.
+          Sed et placerat dolor, sit amet viverra lorem. Suspendisse potenti. Phasellus eu turpis vel justo lobortis ullamcorper vel sed ex. Mauris varius nibh nibh, sit amet molestie justo rutrum in. Praesent nisl sem, iaculis sit amet mattis in, consequat
+          eget dolor. Donec pretium, neque non commodo luctus, augue arcu mollis massa, non convallis ante urna eget orci.</p>
+        </br>
+        <button class=fast-foodBtn type="button" name="button"><h6><strong>VIEW GALLERY</strong><span class="glyphicon glyphicon-arrow-right arrow" aria-hidden="true"></span></h6></button>
+      </div>
+      <div class="col-md-6" id="drinksImage">
+        <table class="table-responsive tb img-thumbnail">
+          <tr>
+            <td><img src="img/drink1.jpg" </img></td>
+            <td><img src="img/drink2.jpg" </img></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <!-- End of fast food and drinks -->
+    </br>
+    </br>
+    </br>
+    <!-- Menu navigation -->
+    <div class="row" id="fast-foodMenu">
+      <div class="container-fluid">
+        <nav id="galleryNav">
+          <div class="navbar-header">
+          </div>
+          <ul class="nav nav-tabs" id="navTabs">
+            <li class="nav-item">
+              <a class="nav-link" id="fastFood" href="#"><h4><strong>Fast Food</strong></h4></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="drinks" href="#"><h4><strong>Drinks</strong></h4></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="chicken" href="#"><h4><strong>Chicken</strong></h4></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="rice" href="#"><h4><strong>Rice</strong></h4></a>
+            </li>
+          </ul>
+          <div class="col-md-12" id="gallery">
+
+            <table width=100%>
+              <tr class="tableImages">
+                <td><span class="glyphicon glyphicon-chevron-left chevron" aria-hidden="true"></span> <img src="img/fastfood/chickenBurger.jpg" alt="Chicken Burger"></br>
+                  <h5><strong>Chicken Burger</strong></h5></td>
+                </br>
+                <td><img src="img/fastfood/beefBurger.jpg" alt="Beef Burger"></br>
+                  <h5><strong>Beef Burger</strong></h5></td>
+                <td><img src="img/fastfood/chickenPizza.jpg" alt="Chicken Pizza"> <span class="glyphicon glyphicon-chevron-right chevron" aria-hidden="true"></span></br>
+                  <h5><strong>Chicken Pizza</strong></h5></td>
+              </tr>
+            </table>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- End of menu nav -->
+    <!-- Reviews -->
+    <div class="happy-customers">
+      <div class="panel panel-default" id="panel">
+        <div class="panel-body" id="panel-body">
+          <div class="col-md-8" id="happyCustomers">
+            <h4><strong>Our Happy Customers</strong></h4></br>
+            <p><strong>George Richard</strong></p>
+            </br>
+            <p>Great food! Menu is awesome, their foods are not only great but also in the right price. I'll highly recommend them :)</p>
+            </br>
+            <span class="glyphicon glyphicon-chevron-left chevron" aria-hidden="true"></span>
+            <img class="people" src="img/customers/p1.png"> <img class="people" src="img/customers/p2.png"> <img class="people" src="img/customers/p3.png">
+            <span class="glyphicon glyphicon-chevron-right chevron" aria-hidden="true"></span>
+          </div>
+          <div class="col-md-4" id="aboutMenu">
+            <h4><strong>About Menu</strong></h4></br>
+            <p>We are only a little team of about 7 members. Sed et placerat dolor, sit amet viverra lorem. Mauris tempor quam vitae sed et placerat dolor, sit amet viverra lorem. Sed et placerat dolor, sit amet viverra lorem. Mauris tempor quam vitae.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of reviews -->
+    <!-- Subscription panel -->
+    <div class="delivery">
+      <div class="row" id="delivery">
+        <h2><strong>Get our daily food items delivered! Enter your email</strong></h2>
+        <form id="subscribe" class="form-group" action="index.html">
+          <input id="input" type="text" name="email" placeholder="Your email">
+          <button id="button"><strong>Subscribe</strong></button>
+        </form>
+      </div>
+    </div>
+    <!-- End of subscription panel -->
+    <!-- Footer -->
+    <div class="footer">
+      <div class="row" id="footer">
+        <div id="footerContents">
+          <h1><img id="burger" src="img/footerlogos/logo_white.png">MENU</h1>
+          <h4>That's What We Are</h4>
+          </br>
+          <p> <a href="#"><img src="img/footerlogos/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="img/footerlogos/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="img/footerlogos/pinterest.png" alt="Pinterest"></a></p>
+          </br>
+          <p>2017 Restaurant Menu</p>
+          <br>
+          <footer id="footer-bottom">
+            <div id="footer-bottom">
+              WillisCode &#169
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+               All rights reserved.
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <!-- End of footer -->
+  </div>
 </body>
 
 </html>

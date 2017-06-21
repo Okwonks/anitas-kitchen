@@ -1,12 +1,12 @@
 # Anita's Kitchen
 
 > Author: Albert Oketch
----
+>---
 > Project Name: Anita's Kitchen
 
 ## Description
 > This is Anita's landing page for her restaurant. It has been developed using HTML, CSS and Bootstrap. Objective to be met is learning to style a page using new methods learned.
----
+>---
 > Link to the page [Click Here](https://okwonks.github.io/anitas-kitchen/)
 ### Specifications
 
